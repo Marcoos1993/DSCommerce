@@ -83,6 +83,10 @@ import jakarta.persistence.Table;
 			this.password = password;
 		}
 
+		public List<Order> getOrders() {
+			return orders;
+		}
+
 		@Override
 		public int hashCode() {
 			return Objects.hash(birthDate, email, id, name, password, phone);
