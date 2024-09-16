@@ -57,4 +57,10 @@ public class ProductService {
 		entity.setImgUrl(dto.getImgUrl());
 
 	}
+	
+	@Transactional
+	public void delete(Long id) {
+
+		repository.deleteById(id);
+	}
 }
