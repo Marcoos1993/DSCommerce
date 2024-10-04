@@ -105,6 +105,7 @@ public class Product {
 		return items.stream().map(x -> x.getOrder()).toList();
 		}
 
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
