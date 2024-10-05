@@ -63,6 +63,11 @@ public class Order {
 	}
 
 
+	public void setMoment(Instant moment) {
+		this.moment = moment;
+	}
+
+
 	public OrderStatus getStatus() {
 		return status;
 	}
@@ -73,6 +78,10 @@ public class Order {
 
 	public User getClient() {
 		return client;
+	}
+	
+	public void setClient(User client) {
+		this.client = client;
 	}
 
 	public Payment getPayment() {

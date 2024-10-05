@@ -16,6 +16,9 @@ public class OrderItem {
 	private Integer quantity;
 	private Double price;
 	
+	public OrderItem() {
+		
+	}
 	
 	public OrderItem(Order order, Product product, int quantity, Double price) {
 		super();
