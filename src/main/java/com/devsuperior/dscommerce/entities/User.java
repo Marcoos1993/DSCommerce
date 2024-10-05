@@ -113,6 +113,7 @@ import jakarta.persistence.Table;
 	    	roles.add(role);
 	    }
 
+	    
 	    public boolean hasRole(String roleName) {
 	    	
 	    	for(Role role : roles) {
